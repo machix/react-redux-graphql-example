@@ -46,7 +46,7 @@ module.exports = function(env) {
       new HTMLWebpackPlugin({
         template: path.resolve(__dirname, '..', 'node_modules/html-webpack-template/index.ejs'),
         devServer: 'http://localhost:3000',
-        title: 'Work Time Recorder',
+        title: 'React Redux GraphQL',
         chunks: ['dist/vendors', 'dist/bundle'],
         filename: 'index.html',
         appMountId: 'app',
